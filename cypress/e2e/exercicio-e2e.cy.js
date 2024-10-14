@@ -1,6 +1,5 @@
 /// <reference types="cypress" />
 
-import { faker } from '@faker-js/faker';
 const perfil = require('../fixtures/perfil.json');
 const produtos = require('../fixtures/produtos.json');
 import CheckoutPage from '../support/page_objects/Checkout.page';

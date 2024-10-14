@@ -2,7 +2,6 @@ class Produtos {
 
     VisitarUrl(){
         cy.visit('/produtos')
-
     }
 
     buscarProduto(nomeProduto){
@@ -14,7 +13,6 @@ class Produtos {
         cy.get(`.button-variable-item-${tamanho}`).click()
         cy.get(`.button-variable-item-${cor}`).click()
         cy.get('.single_add_to_cart_button').click()
-
     }
 
 
